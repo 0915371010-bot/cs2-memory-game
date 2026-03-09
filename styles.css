@@ -1,0 +1,32 @@
+body {
+    background-color: darkgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.card {
+    background-color: orange;
+    color: black;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    font-size: 25px;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
